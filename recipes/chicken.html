@@ -6,17 +6,25 @@
     <link rel="stylesheet" href="./styles.css" />
     <title>Document</title>
   </head>
-  <body>
-    <div class="container">
-      <div class="header">
-        <h1 id="recipe-title">Baked Teriyaki Chicken</h1>
-        <img
-          src="https://www.allrecipes.com/thmb/HAZ2a9tKZwpqLv5cXPSHJBEmmNo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9023-baked-teriyaki-chicken-DDMFS-4x3-8fc9cd3743714eedad57edb8bda8e59b.jpg"
-        />
-      </div>
-      <div id="recipe-content">
-        <div class="description block">
-          <h2>Description</h2>
+  <body class="page">
+    <header class="recipe-page">
+      <div class="logo">MyRecipes</div>
+      <nav class="navbar">
+        <div class="button">
+    
+          <a href="../index.html"><button>Home</button></a>
+           <a href="./pancakes.html" download="pancake-recipe"><button>Download</button></a>
+      </nav>
+    </header>
+
+
+
+
+      <section class="hero container">
+
+        <div class="recipe-info ">
+          <h1>Baked Teriyaki Chicken</h1>
+        
           <p>
             Teriyaki chicken is simply <span class="one">chicken</span> that is coated in teriyaki sauce.
             The dish comes from the <span class="two">Japanese cooking technique called teriyaki</span>,
@@ -32,8 +40,16 @@
           (instead of mirin)</span>, water, garlic, and black pepper.
           </p>
         </div>
+      
+        <div class="image">
+          <img
+          src="https://www.allrecipes.com/thmb/HAZ2a9tKZwpqLv5cXPSHJBEmmNo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9023-baked-teriyaki-chicken-DDMFS-4x3-8fc9cd3743714eedad57edb8bda8e59b.jpg"
+        />
+        </div>
+        
+      </section>
 
-        <div class="ingredients block">
+        <section class="ingredients container">
           <h2>Ingredients</h2>
           <ul>
             <li>½ cup white sugar</li>
@@ -46,9 +62,9 @@
             <li>¼ teaspoon ground black pepper</li>
             <li>12 boneless, skinless chicken thighs</li>
           </ul>
-        </div>
+        </section>
 
-        <div class="steps block">
+        <section class="steps container">
           <h2>Steps</h2>
           <ol>
             <li>
@@ -73,12 +89,14 @@
             </li>
             <li>Serve hot and enjoy!</li>
           </ol>
-        </div>
-      </div>
-      <div class="button"></div>
-        <a href="../index.html"><button>Home</button></a>
-        <button>Download</button>
-      </div>
-    </div>
+        </section>
+    
+        <footer>
+          <div class="footer">Copyright Pretty Kelsey Kelz 2024</div>
+        </footer>
+     
   </body>
 </html>
+
+
+

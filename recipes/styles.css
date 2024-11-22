@@ -1,15 +1,187 @@
-html {
-  box-sizing: border-box;
-  width: 700px;
-  margin: 0 auto;
-}
-
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-#main,
+body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+.container {
+  padding: 80px 400px;
+  color: rgb(43, 1, 90);
+}
+
+header,
+footer {
+  background-color: rgb(43, 1, 90);
+  color: rgb(233, 222, 247);
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-style: italic;
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: rgb(233, 222, 247);
+}
+
+section.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-info h1 {
+  font-size: 48px;
+}
+
+button {
+  color: rgb(233, 222, 247);
+  background-color: rgb(43, 1, 90);
+  padding: 5px 20px;
+  border: none;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+img {
+  width: 500px;
+}
+
+.recipe {
+  background-color: rgb(189, 141, 245);
+}
+
+.recipe h4 {
+  padding-bottom: 30px;
+}
+
+h2 {
+  font-size: 32px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.recipe h4 {
+  font-size: 24px;
+}
+
+.recipe .links a {
+  color: rgb(233, 222, 247);
+  background-color: rgb(43, 1, 90);
+  padding: 5px 20px;
+  border: none;
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6);
+  margin-top: 10px;
+}
+
+.recipe ul {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  text-align: center;
+}
+
+.recipe li {
+  margin-bottom: 20px;
+}
+
+.recipe img {
+  margin-top: 20px;
+  width: 300px;
+  height: 200px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1100px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.box {
+  flex: 1 1 300px;
+  background-color: rgb(233, 222, 247);
+
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.6);
+  padding: 15px 20px;
+}
+
+.quote {
+  padding: 40px 0;
+  border-bottom: 1px rgb(43, 1, 90) solid;
+}
+
+.name {
+  font-weight: 600;
+  text-align: end;
+}
+
+.page .hero,
+.ingredients,
+.steps {
+  background-color: rgb(189, 141, 245);
+}
+
+.page .button button {
+  margin-top: 0px;
+  margin-left: 20px;
+  border-bottom: 3px rgb(189, 141, 245) solid;
+}
+
+.nav-item:hover,
+button:hover {
+  color: rgb(43, 1, 90);
+  background-color: rgb(189, 141, 245);
+}
+
+.page .hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.page img {
+  width: 400px;
+  height: 300px;
+}
+
+.ingredients h2,
+.ingredients ul,
+.steps h2,
+ol {
+  background-color: rgb(43, 1, 90);
+  color: rgb(233, 222, 247);
+  padding: 20px 40px;
+}
+
+/* #main,
 .container {
   text-align: center;
   border: 10px inset rgb(81, 185, 12);
@@ -108,4 +280,4 @@ span {
 
 .three {
   display: inline-block;
-}
+} */

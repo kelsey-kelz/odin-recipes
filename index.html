@@ -6,18 +6,165 @@
     <title>Home</title>
     <link rel="stylesheet" href="./recipes/styles.css" />
   </head>
-  <body id="main">
-    <h1 class="header">Odin Recipes</h1>
 
-    <div class="links">
-      <ul>
-        <li><a href="./recipes/pancakes.html">Pancakes</a></li>
-        <li><a href="./recipes/chicken.html">Baked Teriyaki Chicken</a></li>
-        <li><a href="./recipes/smoothie.html">Breakfast Smoothie</a></li>
-      </ul>
-      <div class="button">
-        <a href="./recipes/contact.html"><button>Let's Talk</button></a>
+  <body>
+    <header>
+      <div class="logo">MyRecipes</div>
+      <nav class="navbar">
+        <ul>
+          <li class="nav-item"><a href="#">Home</a></li>
+          <li class="nav-item"><a href="#">About</a></li>
+          <li class="nav-item"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="container hero">
+      <div class="hero-info">
+        <h3 class="header">Odin Recipes</h3>
+        <h1>Enjoy Awesome Meals and Treats!</h1>
+        <button>Sign Up</button>
       </div>
-    </div>
+      <img
+        src="./recipes/buffet.jpg"
+        alt="a buffet table with a variety of food on it"
+      />
+    </section>
+
+    <section class="container recipe">
+      <h2>Recipes</h2>
+      <h4>Check out these new recipes!</h4>
+
+      <div class="links">
+        <ul>
+          <div class="menu">
+            <li>
+              <a href="./recipes/pancakes.html">Pancakes</a>
+              <img
+                src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F02%2F17%2F21014-Good-old-Fashioned-Pancakes-mfs_002.jpg&q=60&c=sc&poi=auto&orient=true&h=512"
+                alt="delicious pancakes"
+              />
+            </li>
+          </div>
+
+          <div class="menu">
+            <li>
+              <a href="./recipes/chicken.html">Baked Teriyaki Chicken</a>
+              <img
+                src="https://www.allrecipes.com/thmb/HAZ2a9tKZwpqLv5cXPSHJBEmmNo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/9023-baked-teriyaki-chicken-DDMFS-4x3-8fc9cd3743714eedad57edb8bda8e59b.jpg"
+              />
+            </li>
+          </div>
+
+          <div class="menu">
+            <li>
+              <a href="./recipes/smoothie.html">Breakfast Smoothie</a>
+              <img
+                src="https://www.allrecipes.com/thmb/xdQsO7CIMhITEYBlNbQeoFRXMnE=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/409456-d6c9684e14c0414d82f0d6fa07583512.jpg"
+              />
+            </li>
+          </div>
+        </ul>
+      </div>
+
+      <h4>Explore</h4>
+      <div class="boxes">
+        <div class="box">
+          <h2>Breakfast</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>Smoothies</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>Salads</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>Desserts</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>Dinners</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <div class="box">
+          <h2>Meals</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quod
+            magni nulla ad et exercitationem.
+          </p>
+        </div>
+
+        <!-- <div class="button">
+          <a href="./recipes/contact.html"><button>Let's Talk</button></a>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="container testimonials">
+      <h2>Testimonials</h2>
+
+      <div class="comment">
+        <div class="quote">
+          <p class="one">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+            suscipit minima perspiciatis culpa hic cumque harum dolor quo eum?
+            Atque iure, eveniet soluta id laboriosam ratione facere aspernatur
+            amet facilis reiciendis. Quidem aspernatur veniam eligendi adipisci
+            eaque! Eos magnam corrupti, officia nemo reiciendis quas, aut
+            perferendis molestias quod tempora fugiat!
+          </p>
+          <p class="name">-Pretty Kelsey Kelz</p>
+        </div>
+      </div>
+      <div class="quote">
+        <p class="one">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          suscipit minima perspiciatis culpa hic cumque harum dolor quo eum?
+          Atque iure, eveniet soluta id laboriosam ratione facere aspernatur
+          amet facilis reiciendis. Quidem aspernatur veniam eligendi adipisci
+          eaque! Eos magnam corrupti, officia nemo reiciendis quas, aut
+          perferendis molestias quod tempora fugiat!
+        </p>
+        <p class="name">-Pretty Kelsey Kelz</p>
+      </div>
+      <div class="quote">
+        <p class="one">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam
+          suscipit minima perspiciatis culpa hic cumque harum dolor quo eum?
+          Atque iure, eveniet soluta id laboriosam ratione facere aspernatur
+          amet facilis reiciendis. Quidem aspernatur veniam eligendi adipisci
+          eaque! Eos magnam corrupti, officia nemo reiciendis quas, aut
+          perferendis molestias quod tempora fugiat!
+        </p>
+        <p class="name">-Pretty Kelsey Kelz</p>
+      </div>
+    </section>
+
+    <footer>
+      <div class="footer">Copyright Pretty Kelsey Kelz 2024</div>
+    </footer>
   </body>
 </html>
